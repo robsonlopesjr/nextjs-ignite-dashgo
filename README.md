@@ -1,34 +1,112 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Dashgo</h1>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=Typescript"/>
+  <img src="https://img.shields.io/static/v1?label=nextjs&message=framework&color=blue&style=for-the-badge&logo=NEXT"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=Concluido&color=green&style=for-the-badge"/>
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
+### 📖 Tópicos
+
+:small_blue_diamond: [Descrição do projeto](#-descrição-do-projeto)
+
+:small_blue_diamond: [Funcionalidades](#-funcionalidades)
+
+:small_blue_diamond: [Pré-requisitos](#-pré-requisitos)
+
+:small_blue_diamond: [Como execultar a aplicação](#-como-execultar-a-aplicação)
+
+:small_blue_diamond: [Casos de uso](#-casos-de-uso)
+
+:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#-linguagens-dependencias-e-libs-utilizadas)
+
+:small_blue_diamond: [Autor](#-autor)
+
+---
+
+## 💻 Descrição do projeto
+
+<p align="justify">
+  Projeto de um dashboard desenvolvivo com nextjs e chakra-ui.
+</p>
+
+---
+
+## ⚙️ Funcionalidades
+
+:heavy_check_mark: ChakraUI para personalização das telas.
+
+:heavy_check_mark: Gráficos.
+
+:heavy_check_mark: Comunicação com o backend através de api.
+
+:heavy_check_mark: Validação de campos de formulários.
+
+:heavy_check_mark: Cache de dados.
+
+:heavy_check_mark: Dados fakes gerados para teste da aplicação.
+
+---
+
+## 🎯 Pré-requisitos
+
+:warning: [Yarn](https://yarnpkg.com/)
+
+---
+
+## ▶️ Como execultar a aplicação
+
+No terminal, clone o projeto:
+
+```
+git clone https://github.com/robsonlopesjr/nextjs-ignite-dashgo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Depois inicie o projeto
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+yarn dev
+```
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 📌 Casos de uso
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+💬 Listagem de usuários.
 
-## Learn More
+💬 Cadastro de usuários.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Linguagens, dependencias e libs utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+:warning: [ApexCharts](https://apexcharts.com/)
 
-## Deploy on Vercel
+:warning: [Axios](https://axios-http.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+:warning: [Chakra-UI](https://chakra-ui.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+:warning: [Faker](https://github.com/Marak/Faker.js)
+
+:warning: [Miragejs](https://miragejs.com/)
+
+:warning: [NextJS](https://nextjs.org/)
+
+:warning: [TypeScript](https://www.typescriptlang.org/)
+
+:warning: [Yup](https://github.com/jquense/yup)
+
+---
+
+## 🎓 Autor
+
+<a href="https://www.instagram.com/robson.junior.184/">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/69487360?s=400&u=7956928a6764b5ab125fccfa6350c58e3414e2ff&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Robson Júnior</b></sub></a>
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-Robson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robsonlopesjr)](https://www.linkedin.com/in/robsonlopesjr)
+
+---
